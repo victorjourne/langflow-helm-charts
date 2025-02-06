@@ -85,7 +85,7 @@ langflow:
     env:
       - name: LANGFLOW_PORT
         value: "7860"
-      - name: LANGFLOW_ALEMBIC_LOG_FILE
+      - name: LANGFLOW_ALEMBIC_LOG_PATH
         value: "/app/db/alembic.log"
       - name: LANGFLOW_UPDATE_STARTER_PROJECTS
         value: "false"
